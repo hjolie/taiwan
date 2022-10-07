@@ -12,7 +12,7 @@ body {
 }
 
 #bg-img {
-    background: url(img/taipei101.jpg);
+    background-image: url('img/taipei101.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
@@ -141,7 +141,7 @@ header {
 .portrait {
     width:300px;
     height:300px;
-    background:url("img/portrait-lg.jpg");
+    background-image: url('img/portrait-lg.jpg');
     border-radius:50%;
     border:solid 3px #affc8d;
 }
@@ -356,7 +356,7 @@ main {
         transform:translate3d(0, 0, 0);
     }
     .portrait {
-        background:url(img/portrait-sm.jpg);
+        background-image: url('img/portrait-sm.jpg');
         width:150px;
         height:150px;
     }
